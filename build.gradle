@@ -12,7 +12,7 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:5.11.4")
     testRuntimeOnly (
             "org.junit.platform:junit-platform-launcher",
-            'org.slf4j:slf4j-simple:2.0.17')
+            "org.slf4j:slf4j-simple:2.0.17")
 }
 
 tasks.withType(JavaCompile) {
