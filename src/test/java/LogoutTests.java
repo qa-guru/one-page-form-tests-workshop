@@ -25,7 +25,7 @@ public class LogoutTests extends TestBase {
 
     @Test
     public void successfulLogoutWithLocalstorageAuth() {
-        open("/login.html");
+        open("/favicon.ico"); // 404, but doesnt matter
         localStorage().setItem("authUser", "user1");
         open("/login.html");
 
